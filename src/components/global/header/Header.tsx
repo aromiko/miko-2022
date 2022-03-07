@@ -4,7 +4,7 @@ import styles from "./Header.module.scss";
 export const Header: React.FC = () => {
     return (
         <header className={styles.header}>
-            <p>Header</p>
+            <h4>miko aro</h4>
         </header>
     );
 };

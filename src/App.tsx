@@ -1,3 +1,5 @@
+import "App.scss";
+
 import { Footer, Header } from "components/global";
 
 import React from "react";
