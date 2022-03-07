@@ -1,13 +1,13 @@
 import { Footer, Header } from "components/global";
 
-import HomePage from "pages/HomePage";
 import React from "react";
+import { Router } from "utils";
 
 const App: React.FC = () => {
     return (
         <>
             <Header />
-            <HomePage />
+            <Router />
             <Footer />
         </>
     );
